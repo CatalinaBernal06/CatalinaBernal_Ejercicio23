@@ -6,7 +6,7 @@ double valor_u(double x);
 int main(){
     double x = 0.0;
     float c = 0.1;
-    double delta_x = 0.01;
+    double delta_x = 0.001;
     double delta_t = 0.0001;
     
     double k = ((c*c)*(delta_t * delta_t)) /(delta_x*delta_x);
